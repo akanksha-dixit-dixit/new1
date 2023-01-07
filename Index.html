@@ -1,0 +1,62 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <meta http-equiv="X-UA-Compatible" content="IE=edge">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+
+    <title>Quotes Generator</title>
+
+    <script src="javascript.js">
+    
+    </script>
+    <style>
+        body{
+            width: 100%;
+            float: left;
+            margin: 0;
+            padding: 0;
+        }
+        .container-fluid
+        {
+            width: 100%;
+            float: left;
+        }
+        #quotes-display{
+            width: 100%;
+            margin: 0 auto;
+            max-width: 1200px;
+            text-align: center;
+        }
+        #quotes-container{
+            width: 100%;
+            float:left;
+            padding-top: 20px;
+        }
+        button{
+            background-color: cornflowerblue;
+            padding: 10px 10px;
+            font-size: 20px;
+            color: crimson;
+            cursor: pointer;
+            border-style: groove;
+            border-radius: 6px;
+    
+        }
+    </style>
+</head>
+<body>
+   
+    <div class="container-fluid">
+     
+        <div id="quotes-display">
+            <h1>Simple Quote Generator</h1>
+            <button onclick="NewQuote()">New Quotes</button>
+            <div id="quotes-container"></div>
+
+        </div>
+     
+     
+    </div>
+</body>
+</html>
